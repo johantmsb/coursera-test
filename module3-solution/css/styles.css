@@ -1,6 +1,115 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #311147;
   font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-collapse a { 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #311147;
+}
+
+.navbar-light .navbar-brand {
+	color: #311147;
+	font-weight: bold;
+  	font-size: 1.5em;
+}
+/** END HEADER **/
+
+/* HOME PAGE */
+
+div h1 { 
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.row div {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  background-color: #B68BD5;
+  margin-bottom: 15px;
+  position: relative;
+}
+/* EDN HOME PAGE */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#testimonials p {
+  font-style: italic;
+  color: #557c3e;
+  line-height: 1.8;
+}
+
+/* END FOOTER */
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Small devices only **********/
+@media (min-width: 576px) and (max-width: 767px) {
+ .row {
+ 	padding: 15px;
+ }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px) {
+ /* Header */
+  	.row {
+ 	padding: 15px;
+ }
+ 	hr {
+       display: block;
+       position: relative;
+       padding: 0;
+       margin: 8px auto;
+       height: 0;
+       width: 100%;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+    }
+
+    .panel-footer {
+  		text-align: center;
+	}
 }
